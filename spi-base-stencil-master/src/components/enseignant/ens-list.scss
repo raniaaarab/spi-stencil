@@ -1,0 +1,93 @@
+@import "../../../node_modules/bulma/sass/components/card.sass";
+@import "../../../node_modules/bulma/sass/components/media.sass";
+@import "../../../node_modules/bulma/sass/elements/container.sass";
+@import "../../../node_modules/bulma/sass/elements/button.sass";
+@import "../../../node_modules/bulma/sass/elements/image.sass";
+@import "../../../node_modules/bulma/sass/elements/form.sass";
+
+@import "../../../node_modules/bulma/sass/grid/columns.sass";
+
+#img{
+  align-content:center;
+  margin-left: 70%;
+}
+
+body{
+  background: url('https://images.pexels.com/photos/875858/pexels-photo-875858.png?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-size: cover;
+  background-repeat: no-repeat;
+  // background-color:rgb(245, 245, 245);
+}
+
+#email{
+//background: rgba(0, 0, 0, 0.6);
+  color:black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1em;
+  text-align:center;
+  
+}
+
+#nom{
+  font-size:1em;
+  text-align:center;
+}
+
+.card {
+ // margin-top:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  //padding: 16px;
+  //text-align: center;
+  
+  
+ 
+  background: url('');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+.columns{
+  margin-top: 100px;
+ 
+}
+
+
+.column p {
+  //background: rgba(0, 0, 0, 0.6);
+  //color:#00d1b2;
+  color:black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5em;
+
+}
+
+
+
+
+.card {
+  margin-top:20px;
+  background-color:rgb(228, 225, 225);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  //padding: 16px;
+  //text-align: center;
+  
+  
+ 
+  //background: url('https://images.unsplash.com/photo-1461695008884-244cb4543d74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80');
+ // background-size: cover;
+ // background-repeat: no-repeat;
+ //background-color: white;
+}
+
+.column {
+  
+-webkit-box-shadow: -7px 11px 25px -9px rgba(0,0,0,1);
+-moz-box-shadow: -7px 11px 25px -9px rgba(0,0,0,1);
+box-shadow: -7px 11px 25px -9px rgba(0,0,0,1);
+}

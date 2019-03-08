@@ -1,0 +1,36 @@
+@import "../../../node_modules/bulma/sass/elements/form.sass";
+
+@import "../../../node_modules/bulma/sass/components/card.sass";
+@import "../../../node_modules/bulma/sass/elements/button.sass";
+
+.card{
+    margin-top : 20px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+    width:700px;
+    height:100%;
+    //background: url('https://ae01.alicdn.com/kf/HTB1asV1QpXXXXalXVXXq6xXFXXXU/HUAYI-Marmer-latar-belakang-fotografi-Latar-Belakang-Baru-Lahir-Foto-Alat-Peraga-seni-kain-backdrop-3x5ft.jpg_640x640.jpg');
+    //background-size: cover;
+   // background-repeat: no-repeat;
+}
+
+/*.card-content{
+    
+        background-color: #f9f6f6;
+         border: none;
+         padding-bottom : 20px;
+        
+}
+
+.input{
+    width : 70%;
+}*/
+
+.title{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+
+  
+    font-size: 1.5em;
+    color:rgb(15, 134, 189);
+}
